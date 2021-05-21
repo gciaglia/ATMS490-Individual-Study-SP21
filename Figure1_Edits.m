@@ -40,12 +40,3 @@ gb.SourceTable.Route = discretize(table_1Min.Route,[0 1 2 3 4 5 ],...
 gb.ColorVariable = 'Route';
 title('Various Routes in Variable PNC1')
 
-% table_R2a3= table(lattComboR2a3,longComboR2a3, meansComboR2a3,runComboR2a3,... 
-%     'VariableNames',{'Lattitude','Longitude','PNC1','Run'}) ;
-% % table_R3.PNC1 = categorical(table_R3.PNC1);
-% 
-% gb = geobubble(table_R2a3, 'Lattitude','Longitude','SizeVariable','PNC1');
-% gb.SourceTable.Runs = discretize(table_R2a3.Run,[0 471 472 473 474],...
-%     'categorical', {'Run 470', 'Run 471','Run 472', 'Run 473'});
-% gb.ColorVariable = 'Runs';
-% title('Route 2 and 3 for Runs 470-473 ')
